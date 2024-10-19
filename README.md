@@ -1,18 +1,17 @@
-## Getting Started
+# Java Lab 1
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is an introduction to Java programming language and part of the Java development course at the Vistula University.
+The repository contains a simple program which prints "Hello Vistula" to the console.
 
-## Folder Structure
+## How to build
 
-The workspace contains two folders by default, where:
+To compile and run the program you need to have a [Java Development Kit](https://docs.oracle.com/en/java/javase/23/install/overview-jdk-installation.html) installed.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+```sh
+# From the repository root:
+❯ javac src/Main.java 
+❯ java -classpath src/ Main
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# Output:
+Hello Vistula!
+```
